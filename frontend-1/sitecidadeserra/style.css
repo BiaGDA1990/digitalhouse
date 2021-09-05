@@ -12,7 +12,7 @@
 }
 
 .background {
-  background-image: url('../sitecidadeserra/img/manguinhos.jpeg');
+  background-image: url('img/manguinhos.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
