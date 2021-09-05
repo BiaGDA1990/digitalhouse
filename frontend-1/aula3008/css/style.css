@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-image: url('https://cdn.gamer-network.net/2018/articles/2018-08-29-15-04/-1535551466238.jpg/EG11/thumbnail/1920x1075/format/jpg/quality/80');
+  /*  opacity: 1; */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.title,
+.subtitle {
+  color: #fff;
+  text-align: left;
+  margin-left: 3%;
+}
+
+.title {
+  font-size: 100px;
+  padding-top: 400px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.botao {
+  padding: 15px;
+  border-radius: 30px;
+  background: black;
+  color: red;
+  font-weight: bold;
+  box-shadow: 0 0 0 5px rgba(150, 150, 150, 0.5);
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}

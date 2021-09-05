@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.background {
+  background-image: url('../sitecidadeserra/img/manguinhos.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: orange;
+  padding: 10px 10px;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  position: initial;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.texto_site {
+  width: 1280px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px 10px;
+  text-align: center;
+  color: black;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.video {
+  margin-bottom: 15px;
+}
+
+.lista {
+  width: 1280px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: 'Shadows Into Light', cursive;
+  padding: 10px 10px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.curiosidades_title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.footer {
+  font-size: 0.7rem;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%);
+  background-color: orange;
+  text-shadow: white 0.1em 0.1em 0.3em;
+}

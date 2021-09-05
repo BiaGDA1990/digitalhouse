@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url('https://images2.alphacoders.com/513/thumb-1920-513907.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  color: black;
+}
+
+.product-box {
+  width: 20%;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 25px;
+  text-align: center;
+}
+
+.product-img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+.product-name {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.product-button {
+  background-color: black;
+  border: solid 1px black;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50px;
+  padding: 5px 25px;
+}
+.wpp-button {
+  width: 80px;
+  height: auto;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
