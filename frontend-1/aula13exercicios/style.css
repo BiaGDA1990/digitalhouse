@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  border: 20;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  padding-left: 10px;
+}
+.background {
+  background-image: url('https://images.freeimages.com/images/large-previews/a3b/website-rays-background-pattern-1637863.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.minhalogo {
+  border-radius: 50%;
+}
