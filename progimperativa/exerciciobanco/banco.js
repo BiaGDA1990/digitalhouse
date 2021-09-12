@@ -107,7 +107,7 @@ for (index in clients) {
 let Bank = {
   clientsBank: listClients,
   searchClient: function (name) {
-    //Método para realizar pesquisa de cliente.
+    //Pesquisando clientes.
     for (index in listClients) {
       if (listClients[index].holder == name) {
         return listClients[index]
@@ -116,7 +116,7 @@ let Bank = {
     return 'Cliente não encontrado!'
   },
   deposit: function (name, amount) {
-    //Operação para depósito.
+    //Realizando depósito.
     for (index in listClients) {
       if (listClients[index].holder == name) {
         listClients[index].balance += amount
@@ -127,7 +127,7 @@ let Bank = {
     }
   },
   withdraw: function (name, amount) {
-    //Operação para saque.
+    //Realizando saque.
     for (index in listClients) {
       if (listClients[index].holder == name) {
         listClients[index].balance -= amount
@@ -144,14 +144,14 @@ let Bank = {
   }
 }
 
-//Imprimi dados do cliente.
+//Imprimir dados do cliente.
 console.log(Bank.searchClient('Lonnie Verheijden'))
 console.log('------------------------------------------------------------')
 
-//Imprimi comprovante de depósito e o saldo atual do cliente.
+//Imprimir comprovante de depósito e o saldo atual do cliente.
 console.log(Bank.deposit('Lonnie Verheijden', 5000))
 console.log('------------------------------------------------------------')
 
-//Imprimi comprovante de saque e o saldo atual do cliente.
+//Imprimir comprovante de saque e o saldo atual do cliente.
 console.log(Bank.withdraw('Lonnie Verheijden', 7602))
 console.log('------------------------------------------------------------')
