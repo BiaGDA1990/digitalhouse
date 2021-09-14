@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" tabindex="1" required minlength="3" />
+      <input type="text" tabindex="2" pattern="pera|banana" />
+      <input type="text" tabindex="3" />
+      <div>
+        <input type="checkbox" name="" id="check" />
+        <label for="check">Check</label>
+      </div>
+      <fieldset>
+        <legend>Radio</legend>
+        <div>
+          <input type="radio" tabindex="4" name="radio" id="radio1" />
+          <label for="radio1">Radio 1</label>
+        </div>
+        <div>
+          <input type="radio" name="radio" id="radio2" />
+          <label for="radio2">Radio 2</label>
+        </div>
+        <select tabindex="5">
+          <optgroup label="Ferrari">
+            <option>458 Spider</option>
+            <option>F12 Berlinetta</option>
+            <option>California T</option>
+          </optgroup>
+          <optgroup label="Porsche">
+            <option>Macan</option>
+            <option>918 Spyder</option>
+          </optgroup>
+        </select>
+
+        <input
+          type="date"
+          id="festa"
+          name="festa"
+          min="2017-04-01"
+          max="2017-04-25"
+          required
+        />
+      </fieldset>
+      <input
+        type="file"
+        id="avatar"
+        name="avatar"
+        accept="image/png, image/jpeg"
+      />
+      <div>
+        <button type="submit">Mandar dados</button>
+      </div>
+      <div>
+        <button type="reset">Limpar dados</button>
+      </div>
+    </form>
+  </body>
+</html>
