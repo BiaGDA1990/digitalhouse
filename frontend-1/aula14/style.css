@@ -66,7 +66,7 @@ a {
   margin: 10px auto;
 }
 
-.product-button {
+.product-button:hover {
   background-color: black;
   border: solid 1px black;
   font-family: 'Open Sans', sans-serif;

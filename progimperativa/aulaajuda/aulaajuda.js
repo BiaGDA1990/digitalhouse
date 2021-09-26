@@ -1,13 +1,13 @@
-/*let a = 6
+let a = 6
 let b = 4
 
 if (a > b) {
   console.log('o valor ' + a + ' é o maior')
-} else {
-  console.log('o valor ' + b + ' é o maior')
+  //} else {
+  //  console.log('o valor ' + b + ' é o maior')
 }
 
-let senha = ''
+/*let senha = ''
 
 if (senha == 1234) {
   console.log('Senha permitida!')
@@ -17,7 +17,7 @@ if (senha == 1234) {
   console.log('Acesso negado!')
 }*/
 
-let valores = [2, 5, 7, 8, 9, 5]
+/*let valores = [2, 5, 7, 8, 9, 5]
 
 function somarArray(p) {
   let qtd = p.length //criado a variavel qtd para descobrir o tamanho do array
@@ -27,7 +27,7 @@ function somarArray(p) {
     soma = soma + p[cont] // variavel soma recebendo os valores dos array
   }
   return soma //final da soma
-}
+}*/
 
 let valor = somarArray(valores) //criado variavel valor para receber a soma do array
 console.log(valor)

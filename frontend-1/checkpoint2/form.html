@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contato.css" />
+    <title>Salvador</title>
+  </head>
+
+  <body>
+    <header>
+      <input type="checkbox" id="bt_menu" />
+      <label for="bt_menu"> &#9776;</label>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="index.html"> Home </a>
+            <ul>
+              <li><a href="#seleções"> Melhores opções </a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"> Sobre </a>
+            <ul>
+              <li><a href="#"> Maragogi </a></li>
+              <li><a href="#"> Jericoacoara </a></li>
+              <li><a href="#"> Fernando de noronha </a></li>
+              <li><a href="#"> Punta Cana </a></li>
+              <li><a href="#"> Outros </a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="pacotes.html"> Curiosidades </a>
+            <ul>
+              <li><a href="index.html"> Casal </a></li>
+              <li><a href="index.html"> Familia </a></li>
+              <li><a href="index.html"> Promoções </a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#contato"> Contato </a>
+            <ul>
+              <li><a href="index.html"> Whatasapp </a></li>
+              <li><a href="index.html"> Email </a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="img-cidade"></div>
+
+    <form action="/action_page.php" method="get">
+      <label for="nome"> Nome </label>
+      <input
+        type="text"
+        tabindex="1"
+        placeholder="Digite seu nome"
+        id="nome"
+        class="largura_100"
+        name="username"
+        maxlength="100"
+      />
+
+      <label for="email"> E-mail completo </label>
+      <input
+        type="email"
+        tabindex="2"
+        placeholder="contato@contato.com.br"
+        id="email"
+        class="largura_100"
+        name="email"
+      />
+
+      <label for="celular"> Celular </label>
+      <input
+        type="tel"
+        tabindex="3"
+        placeholder="(xx) xxxxx-xxxx"
+        id="celular"
+        class="largura_100"
+        name="celular"
+      />
+
+      <label for="datenasc"> Data de nascimento </label>
+      <input
+        type="date"
+        tabindex="4"
+        id="datenasc"
+        class="largura_100"
+        name="datenasc"
+      />
+
+      <p class="texto_form">Você tem 18 ou mais?</p>
+
+      <input type="radio" tabindex="5" id="idademaior" name="idade" />
+      <label for="idademaior"> Sim, tenho mais de 18 anos </label>
+
+      <input type="radio" tabindex="6" id="idademenor" name="idade" />
+      <label for="idademenor"> Não, sou menor de idade </label>
+
+      <p class="texto_form">Interesses na cidade</p>
+
+      <input
+        type="checkbox"
+        class="checkbox-label"
+        tabindex="7"
+        id="interesse1"
+        name="interesse1"
+      />
+      <label for="interesse1"> Turista </label>
+
+      <input
+        type="checkbox"
+        class="checkbox-label"
+        tabindex="8"
+        id="interesse2"
+        name="interesse2"
+      />
+      <label for="interesse2"> Residente </label>
+
+      <input
+        type="checkbox"
+        class="checkbox-label"
+        tabindex="9"
+        id="interesse3"
+        name="interesse3"
+      />
+      <label for="interesse3"> Estudante </label>
+
+      <input
+        type="checkbox"
+        class="checkbox-label"
+        tabindex="10"
+        id="interesse4"
+        name="interesse4"
+      />
+      <label for="interesse4"> Trabalho </label>
+
+      <p class="texto_form">O que quero visitar:</p>
+      <select>
+        <option selected>Selecione um Ponto Turístico</option>
+        <optgroup label="Praias">
+          <option>Porto da Barra</option>
+          <option>Farol da Barra</option>
+          <option>Praia do Flamego</option>
+        </optgroup>
+        <optgroup label="Centro Histórico">
+          <option>Pelourinho</option>
+          <option>Mercado Modelo</option>
+          <option>Elevador Lacerda</option>
+        </optgroup>
+      </select>
+
+      <button class="botao_enviar" type="submit">
+        <strong> Enviar</strong>
+      </button>
+
+      <button class="botao_reset" type="reset">
+        <strong> Limpar </strong>
+      </button>
+    </form>
+
+    <footer>
+      <p class="text-footer">Siga nossas redes!</p>
+      <a
+        class="links-sociais"
+        href="https://www.instagram.com/visitsalvadordabahia/"
+        ><img
+          class="icones-sociais"
+          src="https://icon-library.com/images/instagram-icon-white-png/instagram-icon-white-png-26.jpg"
+          alt="icone instagram"
+      /></a>
+      <a class="links-sociais" href="https://twitter.com/VisitSalvador"
+        ><img
+          class="icones-sociais"
+          src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png"
+          alt="icone twitter"
+      /></a>
+      <a class="links-sociais" href="https://www.youtube.com/salvador"
+        ><img
+          class="icones-sociais"
+          src="https://icon-library.com/images/youtube-icon-white/youtube-icon-white-12.jpg"
+          alt="icone youtube"
+      /></a>
+    </footer>
+  </body>
+</html>

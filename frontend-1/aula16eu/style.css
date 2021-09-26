@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+  background-color: #181818;
+  font-family: 'Roboto', sans-serif;
+  margin: 72px 0;
+}
+
+.page-title {
+  color: rgb(236, 54, 78);
+  padding-left: 64px;
+  margin-bottom: 6px;
+}
+
+.page-description {
+  padding-left: 64px;
+  color: rgba(170, 150, 150, 0.6);
+}
+
+.videos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+.video {
+  width: 30%;
+  height: fit-content;
+  margin-top: 24px;
+  padding: 32px 12px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.video:hover {
+  transform: scale(1.02);
+  filter: brightness(120%);
+}
+
+.imagens {
+  width: 100%;
+  height: 200px;
+  background-image: url(https://www.einerd.com.br/wp-content/uploads/2019/03/vingadores-ultimato-novos-p%C3%B4steres-je.jpg);
+  background-size: cover;
+}
+
+.imagens2 {
+  color: white;
+  width: 100%;
+  height: 200px;
+  width: 100%;
+  height: 200px;
+  background-image: url(https://d37iydjzbdkvr9.cloudfront.net/pagina/imagens/starwars-curiosidades/capa-abre.jpg);
+  background-size: cover;
+}
+.imagens3 {
+  color: white;
+  width: 100%;
+  height: 200px;
+  width: 100%;
+  height: 200px;
+  background-image: url(https://th.bing.com/th/id/R.66a366f89b3de72c327cb8fc7fc6a8eb?rik=QRlTKOVEOnMyoA&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-position: center;
+}
+.imagens4 {
+  color: white;
+  width: 100%;
+  height: 200px;
+  width: 100%;
+  height: 200px;
+  background-image: url(https://th.bing.com/th/id/OIP.Yl-lkYwMSEtR-0X5njY54wHaEK?pid=ImgDet&rs=1);
+  background-size: cover;
+  background-position: center;
+}
+.imagens5 {
+  color: white;
+  width: 100%;
+  height: 200px;
+  width: 100%;
+  height: 200px;
+  background-image: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B27FB86773026C9A18608633F2F4761E3B7BD3AB18FCF36192D4DA7EFD5CD7EF/scale?width=1200&aspectRatio=1.78&format=jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.imagens6 {
+  color: white;
+  width: 100%;
+  height: 200px;
+  width: 100%;
+  height: 200px;
+  background-image: url(https://images.hdqwalls.com/wallpapers/wonder-woman-1984-movie-year-7a.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.video-time {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  float: right;
+  padding: 8px 12px;
+  display: block;
+  transform: translateY(-35px);
+}
+
+.video-title {
+  margin: 8px 0 12px;
+  color: white;
+}
+
+.video-description {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+.video-views {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 12px;
+  display: block;
+}
+
+.video-date {
+  text-align: right;
+  display: block;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 15px;
+  background: rgb(10, 5, 5);
+  color: rgb(139, 139, 184);
+  box-shadow: 0 0 0 5px rgba(150, 150, 150, 0.5);
+  display: inline-flex;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
