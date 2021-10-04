@@ -48,9 +48,14 @@
         </ul>
       </nav>
     </header>
-    <div class="img-cidade"></div>
-
+    <main>
+      <div class="img-cidade">
+        <h1 class="titulo-cidade">Salvador - BA</h1>
+        <h2 class="subtitulo-cidade">Primeira capital brasileira</h2>
+      </div>
+    </main>
     <form action="/action_page.php" method="get">
+      <h1 class="form_titulo">Entre em contato!</h1>
       <label for="nome"> Nome </label>
       <input
         type="text"
@@ -94,7 +99,9 @@
       <p class="texto_form">Você tem 18 ou mais?</p>
 
       <input type="radio" tabindex="5" id="idademaior" name="idade" />
-      <label for="idademaior"> Sim, tenho mais de 18 anos </label>
+      <label for="idademaior" class="label_espaco">
+        Sim, tenho mais de 18 anos
+      </label>
 
       <input type="radio" tabindex="6" id="idademenor" name="idade" />
       <label for="idademenor"> Não, sou menor de idade </label>
@@ -108,7 +115,7 @@
         id="interesse1"
         name="interesse1"
       />
-      <label for="interesse1"> Turista </label>
+      <label for="interesse1" class="label_espaco"> Turista </label>
 
       <input
         type="checkbox"
@@ -117,7 +124,7 @@
         id="interesse2"
         name="interesse2"
       />
-      <label for="interesse2"> Residente </label>
+      <label for="interesse2" class="label_espaco"> Residente </label>
 
       <input
         type="checkbox"
@@ -126,7 +133,7 @@
         id="interesse3"
         name="interesse3"
       />
-      <label for="interesse3"> Estudante </label>
+      <label for="interesse3" class="label_espaco"> Estudante </label>
 
       <input
         type="checkbox"

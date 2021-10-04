@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito+Sans:wght@300;600&display=swap');
+
 * {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  box-sizing: content-box;
 }
+/*-----MENU-----*/
 .menu {
   height: 50px;
   background-color: rgb(74, 165, 240);
@@ -56,7 +57,7 @@
 
 label[for='bt_menu'] {
   padding: 5px;
-  background-color: red;
+  background-color: rgb(74, 165, 240);
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
@@ -102,6 +103,7 @@ label[for='bt_menu'] {
   }
 }
 
+/*-----HEADER-----*/
 .img-cidade {
   background-image: url('https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2020/12/Salvador.png');
   width: 100%;
@@ -111,9 +113,38 @@ label[for='bt_menu'] {
   background-position: center;
 }
 
+.titulo-cidade {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 200px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.subtitulo-cidade {
+  color: #fff;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+/*-----MAIN-----*/
 main {
   width: 80%;
   margin: 0 auto;
+  display: block;
+}
+/*----SOBRE-----*/
+#sobre {
+  width: 100%;
+  display: flex;
 }
 
 .text-box {
@@ -133,12 +164,22 @@ main {
   color: #4062bb;
 }
 
+/*-----CURIOSIDADES-----*/
+
 .sub-title {
   text-align: center;
   font-size: 32px;
   color: #da3e52;
   font-family: 'Montserrat', sans-serif;
   padding: 30px 0 0;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#curiosidades {
+  width: 100%;
+  display: block;
 }
 
 .cur-box {
@@ -156,6 +197,8 @@ main {
   list-style-type: circle;
   padding-bottom: 10px;
 }
+
+/*-----FOOTER-----*/
 
 footer {
   background-color: #da3e52;
@@ -185,4 +228,13 @@ footer {
   height: auto;
   display: inline-block;
   vertical-align: middle;
+}
+
+/*-----MEDIA QUERYS-----*/
+@media only screen and (max-width: 800px) {
+  .cur-box,
+  .text-box {
+    width: 100%;
+    display: block;
+  }
 }
